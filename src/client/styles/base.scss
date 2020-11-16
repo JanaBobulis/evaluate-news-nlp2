@@ -1,0 +1,22 @@
+$font-stack: sans-serif;
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba($color: #f1e3e3, $alpha: 1.0);
+    font: 100% $font-stack;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+
+//font - sans-serif 
+//nav bar items smaller or logo bigger

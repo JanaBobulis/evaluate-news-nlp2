@@ -1,0 +1,25 @@
+form {
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    padding: 40px;
+    background-color: white;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: darkblue;
+    letter-spacing: 2px;
+}
+
+#results {
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}

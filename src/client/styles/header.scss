@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: rgba(204, 109, 109, 0.46);
+}
+
+ .logo {
+    img {
+        max-width: 220px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+        list-style: none;
+        text-transform: uppercase;
+        display: inline;
+        padding: 15px;
+         a {
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            color: darkblue;
+        }
+        a:hover {
+            color: rgba($color: #f1e3e3, $alpha: 1.0);
+            transition: ease 0.3s all;
+        }
+    }
+}

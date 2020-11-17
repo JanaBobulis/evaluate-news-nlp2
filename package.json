@@ -2,6 +2,9 @@
   "name": "example-project",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "12.11.1"
+  },
   "scripts": {
     "test": "jest",
     "testwatch": "jest --watchAll",

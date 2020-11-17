@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest",
     "testwatch": "jest --watchAll",
-    "start": "node index.js",
+    "start": "node src/server/index.js",
     "build-prod": "webpack --config webpack.prod.js",
     "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
   },

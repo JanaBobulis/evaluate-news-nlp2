@@ -62,8 +62,13 @@ app.post('/test', async (req, res) => {
 
 module.exports = {app};
 
-const { PORT=3000, LOCAL_ADDRESS='0.0.0.0' } = process.env
-server.listen(PORT, LOCAL_ADDRESS, () => {
-  const address = server.address();
-  console.log('server listening at', address);
-});
+///const { PORT=3000, LOCAL_ADDRESS='0.0.0.0' } = process.env
+//server.listen(PORT, LOCAL_ADDRESS, () => {
+//  const address = server.address();
+//  console.log('server listening at', address);
+//});
+
+const PORT = process.env.PORT || '8080'
+app = express();
+
+app.set("port", PORT);

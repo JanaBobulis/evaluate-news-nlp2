@@ -68,7 +68,3 @@ module.exports = {app};
 //  console.log('server listening at', address);
 //});
 
-const PORT = process.env.PORT || '8080'
-app = express();
-
-app.set("port", PORT);
